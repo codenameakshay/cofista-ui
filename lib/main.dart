@@ -1,4 +1,5 @@
 import 'package:cofista/screens/homescreen.dart';
+import 'package:cofista/screens/profile.dart';
 import 'package:cofista/screens/register.dart';
 import 'package:cofista/screens/search.dart';
 import 'package:cofista/screens/signin.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Search(),
+      home: Profile(title: 'Cofista'),
     );
   }
 }

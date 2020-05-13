@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Favourites extends StatefulWidget {
+  Favourites({Key key, this.title}) : super(key: key);
+  final String title;
   @override
   _FavouritesState createState() => _FavouritesState();
 }
