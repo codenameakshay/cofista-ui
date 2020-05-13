@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Expanded(
-                flex: 13,
+                flex: 12,
                 child: Container(
                   child: StaggeredGridView.count(
                     crossAxisCount: 6,
@@ -77,6 +77,25 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisSpacing: 4,
                     padding: EdgeInsets.all(12),
                   ),
+                )),
+            Expanded(
+                flex: 1,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 4, horizontal: 100),
+                        child: RaisedButton(
+                          shape: StadiumBorder(),
+                          onPressed: () {},
+                          child: Text("SEE MORE",
+                              style: GoogleFonts.poppins(
+                                  fontSize: 16, color: Color(0xFF000000))),
+                        ),
+                      ),
+                    )
+                  ],
                 )),
             Expanded(flex: 4, child: Container()),
           ]),
