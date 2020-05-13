@@ -7,15 +7,15 @@
 This is a simple app UI made in Flutter for a beverage ordering app. It features simple and beautiful UI, with responsive output.
 
 ## Demo
+<img src="demo/1.jpg" width="360">
+<img src="demo/2.jpg" width="360">
+<img src="demo/3.jpg" width="360">
+<img src="demo/4.jpg" width="360">
+<img src="demo/5.jpg" width="360">
+<img src="demo/6.jpg" width="360">
+<img src="demo/7.jpg" width="360">
+<img src="demo/8.jpg" width="360">
 
-![](demo/1.jpg)
-![](demo/2.jpg)
-![](demo/3.jpg)
-![](demo/4.jpg)
-![](demo/5.jpg)
-![](demo/6.jpg)
-![](demo/7.jpg)
-![](demo/8.jpg)
 
 ## Dependencies
 This app uses the following packages -
