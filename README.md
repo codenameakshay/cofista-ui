@@ -25,6 +25,12 @@ This app uses the following packages -
 
 More details about these can be found in the [`pubspec.yaml`](https://github.com/codenameakshay/cofista-ui/tree/master/pubspec.yaml) file.
 
+## Usage
+
+The application files for Android devices can be found under the [`bin`](https://github.com/codenameakshay/cofista-ui/tree/master/bin) folder.
+- [`app-arm64-v8a-release`](/bin/app-arm64-v8a-release.apk) For most users, this will work. It is for ARM x64 based devices.
+- [`app-armeabi-v7a-release`](/bin/app-armeabi-v7a-release.apk) It is for ARM-based devices.
+- [`app-x86_64-release`](/bin/app-x86_64-release.apk) It is for x86 based devices.
 
 ## Development
 
