@@ -1,3 +1,4 @@
+import 'package:cofista/ui/bottomnav.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -67,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Expanded(
-                flex: 12,
+                flex: 11,
                 child: Container(
                   child: StaggeredGridView.count(
                     crossAxisCount: 6,
@@ -79,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 )),
             Expanded(
-                flex: 1,
+                flex: 2,
                 child: Row(
                   children: [
                     Expanded(
@@ -97,7 +98,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     )
                   ],
                 )),
-            Expanded(flex: 4, child: Container()),
+            Expanded(
+                flex: 4,
+                child: Container(
+                  child: NavBar(),
+                )),
           ]),
         ));
   }
