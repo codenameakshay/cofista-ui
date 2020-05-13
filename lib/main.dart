@@ -83,6 +83,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           padding: EdgeInsets.symmetric(vertical: 20),
                           onPressed: () {
                             HapticFeedback.vibrate();
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) {
+                              return SignInPage();
+                            }));
                           },
                           child: Text(
                             'SIGN IN',
@@ -107,6 +111,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           padding: EdgeInsets.symmetric(vertical: 20),
                           onPressed: () {
                             HapticFeedback.vibrate();
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) {
+                              return RegisterPage();
+                            }));
                           },
                           child: Text(
                             'REGISTER',

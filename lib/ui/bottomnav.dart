@@ -1,3 +1,8 @@
+import 'package:cofista/screens/favourites.dart';
+import 'package:cofista/screens/orders.dart';
+import 'package:cofista/screens/homescreen.dart';
+import 'package:cofista/screens/profile.dart';
+import 'package:cofista/screens/search.dart';
 import 'package:flutter/material.dart';
 
 class NavBar extends StatefulWidget {
@@ -30,7 +35,10 @@ class _NavBarState extends State<NavBar> {
                         color: Colors.black,
                       ),
                       onPressed: () {
-                        print("Button is Pressed!");
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return Profile();
+                        }));
                       }),
                   IconButton(
                       icon: Icon(
@@ -39,7 +47,10 @@ class _NavBarState extends State<NavBar> {
                         color: Colors.black,
                       ),
                       onPressed: () {
-                        print("Button is Pressed!");
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return Search();
+                        }));
                       }),
                   IconButton(
                       icon: Icon(
@@ -48,7 +59,10 @@ class _NavBarState extends State<NavBar> {
                         color: Colors.black,
                       ),
                       onPressed: () {
-                        print("Button is Pressed!");
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return HomeScreen();
+                        }));
                       }),
                   IconButton(
                       icon: Icon(
@@ -57,7 +71,10 @@ class _NavBarState extends State<NavBar> {
                         color: Colors.black,
                       ),
                       onPressed: () {
-                        print("Button is Pressed!");
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return Favourites();
+                        }));
                       }),
                   IconButton(
                       icon: Icon(
@@ -66,7 +83,10 @@ class _NavBarState extends State<NavBar> {
                         color: Colors.black,
                       ),
                       onPressed: () {
-                        print("Button is Pressed!");
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return Orders();
+                        }));
                       }),
                 ],
               ),

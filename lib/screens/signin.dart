@@ -1,3 +1,5 @@
+import 'package:cofista/screens/homescreen.dart';
+import 'package:cofista/screens/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -121,6 +123,10 @@ class _SignInPageState extends State<SignInPage> {
                           padding: EdgeInsets.symmetric(vertical: 20),
                           onPressed: () {
                             HapticFeedback.vibrate();
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) {
+                              return HomeScreen();
+                            }));
                           },
                           child: Text(
                             'SIGN IN',
@@ -228,6 +234,10 @@ class _SignInPageState extends State<SignInPage> {
                           padding: EdgeInsets.symmetric(vertical: 20),
                           onPressed: () {
                             HapticFeedback.vibrate();
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) {
+                              return RegisterPage();
+                            }));
                           },
                           child: Text(
                             'Get Registered',
