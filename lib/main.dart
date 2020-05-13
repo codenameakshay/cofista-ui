@@ -1,3 +1,5 @@
+import 'package:cofista/screens/register.dart';
+import 'package:cofista/screens/signin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Cofista'),
+      home: RegisterPage(title: 'Cofista'),
     );
   }
 }
